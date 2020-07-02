@@ -1,6 +1,6 @@
 # Calculadora de IMC e Peso Ideal
 
-ACESSE A APLICAÇÃO: https://andrehw27.github.io/Calculadora_IMC_-Peso-Ideal/
+ACESSE A APLICAÇÃO: https://andrehw27.github.io/Calculadora_IMC_Peso-Ideal/
 
 Primeiro projeto pessoal, utilizado como aprendizado. Com essa aplicação é possível além de descobrir o seu índice de massa corporal, também qual a faixa de peso ideal baseado em sua estatura, além de conferir a tabela geral de IMC.
 

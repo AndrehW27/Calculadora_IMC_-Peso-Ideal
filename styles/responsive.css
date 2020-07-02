@@ -37,6 +37,13 @@
     }     
 }
 
+@media (max-width: 800px) {
+    .tableImcImg{
+    height: 229px;
+    width: 340px;    
+    }
+}
+
 @media (max-width: 570px) {
     #hiddenDiv .result_close{
         font-size: 24px;

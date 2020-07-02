@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Índice de Massa Corporal</title>
+
+        <script type="text/javascript" src="./scripts/idealWeight.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="./styles/idealWeight.css">
+        <link rel="stylesheet" type="text/css" href="./styles/reset.css">
+        <link rel="stylesheet" type="text/css" href="./styles/responsive.css">
+
+    </head>
+    <body>
+
+         <header>
+            <a href="./index.html">
+                Calculadora de IMC
+            </a>
+
+             <a href="./tableImc.html">
+                Ver tabela IMC
+            </a>
+                     
+        </header>
+
+        <form class="main">
+
+            <h1>PESO IDEAL</h1>
+
+            <fieldset>
+
+                <label for="name">Nome</label>
+                <input id="name2" type="text" name="name" placeholder="Primeiro nome" required="required">
+
+                <label for="weight">Altura</label>
+                <input id="height2" type="text" name="height" placeholder="Número em metros (exemplo: 1.70)" required="required">
+
+                <field-group>
+
+                    <button type="button" onclick="FindWeight()">CALCULAR</button>
+                    <button type="reset" value="Reset">APAGAR CAMPOS</button>
+                </field-group>
+
+            </fieldset>
+
+        </form>
+
+        
+        <div id="hiddenDiv2">
+            <div class="result_close2">
+                <p>Resultado</p>
+                <a href="./idealWeight.html">Fechar</a>
+            </div>
+            <div class="content2">
+                <p id="paraWeight">Teste</p>
+
+            </div>
+        </div>  
+    </body>
+</html>

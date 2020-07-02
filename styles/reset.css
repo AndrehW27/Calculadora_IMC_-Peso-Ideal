@@ -1,0 +1,12 @@
+:root {
+    --title-color: #323135;
+    --primary-color: #2974bb;
+}
+
+* {
+    margin: 0;
+    padding: o;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}

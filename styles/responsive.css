@@ -39,10 +39,19 @@
 
 @media (max-width: 800px) {
     .tableImcImg{
-    height: 229px;
-    width: 340px;    
+    height: 300px;
+    width: 448px;    
     }
 }
+
+@media (max-width: 660px) {
+    .tableImcImg{
+        height: 229px;
+        width: 340px;    
+        }
+}
+
+
 
 @media (max-width: 570px) {
     #hiddenDiv .result_close{
@@ -71,6 +80,7 @@
 }
 
 @media (max-width: 400px) {
+
     #hiddenDiv .content{
         height: 300px;
     }
